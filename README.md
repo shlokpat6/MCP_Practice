@@ -1,0 +1,5 @@
+- This is a repo where I practice building MCP servers using fastmcp
+    - There are 3 versions of mcp servers that I've built
+        - A local one with no authorization
+        - A remote one with no authorization
+        - A remote one with autorization with descope
