@@ -2,4 +2,8 @@
     - There are 3 versions of mcp servers that I've built
         - A local one with no authorization
         - A remote one with no authorization
+            - Note, since this is a local remote server using our local IP, we need to give it a public facing ip if we want to get claude or chat gpt on web to accept the url
+                - Using cloudflared to do this
+                - Once the url is created via cloudflared, provide it to the connectors tab in claude. 
+                - Verify it works by prompting claude to tell you what the available tools are as part of that mcp server.
         - A remote one with autorization with descope
